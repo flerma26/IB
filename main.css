@@ -4,10 +4,14 @@ body{
 h1{
   text-align:center;
   font-family:cambria;
-  color:white;
+  background-color:black;
+  color:red;
 }
-img.ib{
-animation: fading 3s forwards;
+img#ib{
+animation: fading 10s forwards;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 @keyframes fading{
   from{
@@ -17,5 +21,27 @@ animation: fading 3s forwards;
      filter:sepia(0%);
   }
 }
+
+.students{
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+h2{
+ font-family:cambria;
+ color:darkgreen;
+}
+.motto{
+ text-align:center;
+ font-family:cambria;
+ color:white;
+}
+.program{
+ font-family:cambria;
+ color:white;
+}
+
+
+
 
 
