@@ -36,11 +36,35 @@ h2{
  font-family:cambria;
  color:white;
 }
+#tag{
+  color:yellow;
+}
 .program{
  font-family:cambria;
- color:white;
+ color:green;
 }
-
+#facts{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ animation: filtered 10s forwards;
+}
+@keyframes filtered{
+  from{
+     filter:hue-rotate(0deg);
+  }
+  to{
+     filter:hue-rotate(180deg);
+  }
+}
+.list{
+  color:yellow;
+  font-family:cambria;
+}
+#number:hover{
+  background-color:red;
+  font-style:italic;
+}
 
 
 
