@@ -6,4 +6,16 @@ h1{
   font-family:cambria;
   color:white;
 }
+img.ib{
+animation: fading 3s forwards;
+}
+@keyframes fading{
+  from{
+     filter:sepia(100%);
+  }
+  to{
+     filter:sepia(0%);
+  }
+}
+
 
